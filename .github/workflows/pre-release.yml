@@ -117,7 +117,7 @@ jobs:
 #------------------Update XSK Instance-------------------#
 
     - name: Kubectl tool installer
-      uses: Azure/setup-kubectl@v1
+      uses: Azure/setup-kubectl@v3
     - name: Setup Kube Config File
       run: |
         mkdir $HOME/.kube
